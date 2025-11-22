@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Netflix - Movie Stream</title>
+    <link rel="icon" href="midia/filme.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="streaming-page.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html" class="logo-button" aria-label="Voltar para a página principal">
+                <img src="midia/eleven.png" alt="logo Eleven Stream" width="200">
+            </a>
+        </h1>
+    </header>
+
+    <main class="streaming-page-main" data-streaming-service="netflix">
+        <div class="streaming-header netflix-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="Logo Netflix" class="streaming-logo">
+            <h2>Conteúdo popular na Netflix</h2>
+        </div>
+
+        <div class="top-lists-container">
+            <section class="top-list">
+                <h3>Top 10 Filmes</h3>
+                <ol id="movies-list"></ol>
+            </section>
+
+            <section class="top-list">
+                <h3>Top 10 Séries</h3>
+                <ol id="series-list"></ol>
+            </section>
+        </div>
+    </main>
+
+    <footer style="padding: 10px 20px;">
+        <div class="footer-location">Brasil</div>
+        <div class="footer-links">
+            <a href="https://github.com/Hyago085" target="_blank">GitHub</a>
+            <a href="https://www.alura.com.br/" target="_blank">Alura</a>
+            <a href="https://www.linkedin.com/in/hyago-eug%C3%AAnio-229a09251/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

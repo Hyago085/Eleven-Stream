@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="midia/filme.ico" type="image/x-icon">
+    <title>Eleven Stream</title>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html" class="logo-button" aria-label="Voltar para a página principal">
+                <img src="midia/eleven.png" alt="logo Eleven Stream" width="200">
+            </a>
+        </h1>
+
+        <!-- barra fixa na base do header: grupo de botões (scroll) + campo de busca à direita -->
+        <div class="stream-buttons">
+            <div class="buttons-group">
+                <a href="netflix.html" class="btn-stream btn-netflix" aria-label="Netflix">Netflix</a>
+                <a href="prime-video.html" class="btn-stream btn-prime-video" aria-label="Prime Video">Prime</a>
+                <a href="disney-plus.html" class="btn-stream btn-disney-plus" aria-label="Disney+">Disney+</a>
+                <a href="max.html" class="btn-stream btn-max" aria-label="Max">Max</a>
+                <a href="globoplay.html" class="btn-stream btn-globoplay" aria-label="Globoplay">Globoplay</a>
+                <a href="paramount.html" class="btn-stream btn-paramount" aria-label="Paramount+">Paramount+</a>
+                <a href="apple-tv.html" class="btn-stream btn-apple-tv" aria-label="Apple TV+">Apple TV+</a>
+            </div>
+
+            <div class="search-container" role="search">
+                <input id="busca" type="search" placeholder="Pesquisar filmes..." aria-label="Pesquisar filmes">
+                <button id="botao-busca" aria-label="Buscar">Buscar</button>
+            </div>
+        </div>
+
+        <!-- barra de pesquisa removida conforme solicitado -->
+    </header>
+
+    <main>
+        <section class="news-container">
+            <h2>Notícias da Semana</h2>
+            <div class="news-articles">
+                <a href="https://www.adorocinema.com/filmes/filme-312101/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <article class="news-item">
+                        <img src="midia/pantera_negra.png" alt="Pantera Negra">
+                        <div class="news-item-content">
+                            <h3>Marvel confirma 'Pantera Negra 3'</h3>
+                            <p>Ryan Coogler já está trabalhando na sequência do sucesso da Marvel, que promete expandir ainda mais o mundo de Wakanda.</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="https://www.adorocinema.com/series/serie-28230/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <article class="news-item">
+                        <img src="midia/o_cavaleiro_dos_sete_reinos.png" alt="imagem da serie o cavaleiro dos sete reinos">
+                        <div class="news-item-content">
+                            <h3>'O Cavaleiro dos Sete Reinos' ganha nova imagem</h3>
+                            <p>A série derivada de 'Game of Thrones' teve uma nova imagem divulgada, mostrando os protagonistas Dunk e Egg. </p>
+                        </div>
+                    </article>
+                </a>
+                <a href="https://www.adorocinema.com/series/serie-34199/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <article class="news-item">
+                        <img src="midia/airton_senna.png" alt="Série Senna da Netflix">
+                        <div class="news-item-content">
+                            <h3>Série sobre Ayrton Senna estreia em novembro</h3>
+                            <p>A Netflix confirmou a estreia da minissérie biográfica sobre o piloto brasileiro de Fórmula 1 para o dia 29 de novembro.</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="https://www.adorocinema.com/filmes/filme-238073/" target="_blank" style="text-decoration: none; color: inherit;">
+                    <article class="news-item">
+                        <img src="midia/truque_de_mestre.png" alt="Logo de Truque de Mestre">
+                        <div class="news-item-content">
+                            <h3>'Truque de Mestre 3' ganha data de estreia</h3>
+                            <p>A sequência da popular franquia de mágicos ilusionistas foi confirmada e chega aos cinemas em novembro de 2025.</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="https://www.angel.com/pt-BR/watch/young-david" target="_blank" style="text-decoration: none; color: inherit;">
+                    <article class="news-item">
+                        <img src="midia/young-david.png" alt="Animação Davi">
+                        <div class="news-item-content">
+                            <h3>Animação sobre o Rei Davi ganha novo teaser</h3>
+                            <p>A Angel Studios divulgou um novo teaser de 'Davi', uma animação musical que contará a história do pastor que se tornou rei.</p>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </section>
+        <section class="card-container">
+            <article class="card">
+               
+            </article>
+        </section>
+    </main>
+
+    <!-- footer movido para baixo da página -->
+    <footer>
+        <div class="footer-location">
+            Brasil
+        </div>
+        <div class="footer-links">
+            <a href="https://github.com/Hyago085" target="_blank">GitHub</a>
+            <a href="https://www.alura.com.br/" target="_blank">Alura</a>
+            <a href="https://www.linkedin.com/in/hyago-eug%C3%AAnio-229a09251/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,884 @@
+{
+  "netflix": {
+    "movies": [
+      {
+        "title": "Guerreiras do K-pop",
+        "url": "https://www.adorocinema.com/filmes/filme-291011/",
+        "rating": "12+",
+        "genre": "Animação/Ação"
+      },
+      {
+        "title": "Alerta Vermelho",
+        "url": "https://www.adorocinema.com/filmes/filme-262468/",
+        "rating": "14+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "Bagagem de Risco",
+        "url": "https://www.adorocinema.com/filmes/filme-306738/",
+        "rating": "14+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "Não Olhe para Cima",
+        "url": "https://www.adorocinema.com/filmes/filme-281330/",
+        "rating": "16+",
+        "genre": "Comédia/Ficção"
+      },
+      {
+        "title": "O Projeto Adam",
+        "url": "https://www.adorocinema.com/filmes/filme-214404/",
+        "rating": "12+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Bird Box",
+        "url": "https://www.adorocinema.com/filmes/filme-222801/",
+        "rating": "16+",
+        "genre": "Ficção/Suspense"
+      },
+      {
+        "title": "De Volta à Ação",
+        "url": "https://www.adorocinema.com/filmes/filme-305935/",
+        "rating": "14+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "O Mundo Depois de Nós",
+        "url": "https://www.adorocinema.com/filmes/filme-285315/",
+        "rating": "16+",
+        "genre": "Suspense/Ficção"
+      },
+      {
+        "title": "Agente Oculto",
+        "url": "https://www.adorocinema.com/filmes/filme-189549/",
+        "rating": "16+",
+        "genre": "Ação/Suspense"
+      },
+      {
+        "title": "Donzela",
+        "url": "https://www.adorocinema.com/filmes/filme-288025/",
+        "rating": "12+",
+        "genre": "Aventura/Fantasia"
+      }
+    ],
+    "series": [
+      {
+        "title": "Lupin",
+        "url": "https://www.adorocinema.com/series/serie-22302/",
+        "rating": "16+",
+        "genre": "Policial/Suspense"
+      },
+      {
+        "title": "A Grande Ilusão",
+        "url": "https://www.adorocinema.com/series/serie-35489/",
+        "rating": "16+",
+        "genre": "Suspense/Drama"
+      },
+      {
+        "title": "O Agente Noturno",
+        "url": "https://www.adorocinema.com/series/serie-28063/",
+        "rating": "16+",
+        "genre": "Ação/Suspense"
+      },
+      {
+        "title": "O Gambito da Rainha",
+        "url": "https://www.adorocinema.com/series/serie-24971/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "La Casa de Papel",
+        "url": "https://www.adorocinema.com/series/serie-21504/",
+        "rating": "16+",
+        "genre": "Suspense/Policial"
+      },
+      {
+        "title": "Bridgerton",
+        "url": "https://www.adorocinema.com/series/serie-23886/",
+        "rating": "16+",
+        "genre": "Romance/Drama"
+      },
+      {
+        "title": "Dahmer: um Canibal Americano",
+        "url": "https://www.adorocinema.com/series/serie-27411/",
+        "rating": "18+",
+        "genre": "Biografia/Suspense"
+      },
+      {
+        "title": "Stranger Things",
+        "url": "https://www.adorocinema.com/series/serie-19156/",
+        "rating": "16+",
+        "genre": "Ficção/Suspense"
+      },
+      {
+        "title": "Wandinha",
+        "url": "https://www.adorocinema.com/series/serie-28487/",
+        "rating": "14+",
+        "genre": "Fantasia/Comédia"
+      },
+      {
+        "title": "Round 6",
+        "url": "https://www.adorocinema.com/series/serie-29898/",
+        "rating": "16+",
+        "genre": "Suspense/Drama"
+      }
+    ]
+  },
+  "prime-video": {
+    "movies": [
+      {
+        "title": "Batman - O Cavaleiro das Trevas",
+        "url": "https://www.adorocinema.com/filmes/filme-115362/",
+        "rating": "12+",
+        "genre": "Ação/Suspense"
+      },
+      {
+        "title": "Gladiador",
+        "url": "https://www.adorocinema.com/filmes/filme-24944/",
+        "rating": "14+",
+        "genre": "Ação/Drama"
+      },
+      {
+        "title": "O Silêncio dos Inocentes",
+        "url": "https://www.adorocinema.com/filmes/filme-6641/",
+        "rating": "16+",
+        "genre": "Suspense/Policial"
+      },
+      {
+        "title": "Interestelar",
+        "url": "https://www.adorocinema.com/filmes/filme-114782/",
+        "rating": "10+",
+        "genre": "Ficção/Drama"
+      },
+      {
+        "title": "Os Infiltrados",
+        "url": "https://www.adorocinema.com/filmes/filme-55983/",
+        "rating": "16+",
+        "genre": "Policial/Suspense"
+      },
+      {
+        "title": "Green Book - O Guia",
+        "url": "https://www.adorocinema.com/filmes/filme-256661/",
+        "rating": "12+",
+        "genre": "Biografia/Comédia"
+      },
+      {
+        "title": "O Lobo de Wall Street",
+        "url": "https://www.adorocinema.com/filmes/filme-127524/",
+        "rating": "18+",
+        "genre": "Biografia/Comédia"
+      },
+      {
+        "title": "Homem-Aranha no Aranhaverso",
+        "url": "https://www.adorocinema.com/filmes/filme-233998/",
+        "rating": "10+",
+        "genre": "Animação/Ação"
+      },
+      {
+        "title": "Tropa de Elite",
+        "url": "https://www.adorocinema.com/filmes/filme-133548/",
+        "rating": "18+",
+        "genre": "Ação/Policial"
+      },
+      {
+        "title": "Shrek",
+        "url": "https://www.adorocinema.com/filmes/filme-27415/",
+        "rating": "Livre",
+        "genre": "Animação/Comédia"
+      }
+    ],
+    "series": [
+      {
+        "title": "The Boys",
+        "url": "https://www.adorocinema.com/series/serie-22668/",
+        "rating": "18+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "Fleabag",
+        "url": "https://www.adorocinema.com/series/serie-20611/",
+        "rating": "16+",
+        "genre": "Comédia/Drama"
+      },
+      {
+        "title": "Reacher",
+        "url": "https://www.adorocinema.com/series/serie-25364/",
+        "rating": "16+",
+        "genre": "Ação/Crime"
+      },
+      {
+        "title": "A Maravilhosa Sra. Maisel",
+        "url": "https://www.adorocinema.com/series/serie-21002/",
+        "rating": "16+",
+        "genre": "Comédia/Drama"
+      },
+      {
+        "title": "Invencível (Invincible)",
+        "url": "https://www.adorocinema.com/series/serie-23751/",
+        "rating": "18+",
+        "genre": "Animação/Ação"
+      },
+      {
+        "title": "O Senhor dos Anéis: Os Anéis de Poder",
+        "url": "https://www.adorocinema.com/series/serie-22940/",
+        "rating": "14+",
+        "genre": "Aventura/Fantasia"
+      },
+      {
+        "title": "DOM",
+        "url": "https://www.adorocinema.com/series/serie-25976/",
+        "rating": "18+",
+        "genre": "Policial/Drama"
+      },
+      {
+        "title": "Fallout",
+        "url": "https://www.adorocinema.com/series/serie-26929/",
+        "rating": "18+",
+        "genre": "Ficção/Ação"
+      },
+      {
+        "title": "Jack Ryan",
+        "url": "https://www.adorocinema.com/series/serie-19778/",
+        "rating": "16+",
+        "genre": "Ação/Suspense"
+      },
+      {
+        "title": "Good Omens",
+        "url": "https://www.adorocinema.com/series/serie-20512/",
+        "rating": "16+",
+        "genre": "Comédia/Fantasia"
+      }
+    ]
+  },
+  "disney-plus": {
+    "movies": [
+      {
+        "title": "Vingadores: Ultimato",
+        "url": "https://www.adorocinema.com/filmes/filme-232669/",
+        "rating": "12+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "Avatar",
+        "url": "https://www.adorocinema.com/filmes/filme-61282/",
+        "rating": "12+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Avatar: O Caminho da Água",
+        "url": "https://www.adorocinema.com/filmes/filme-178014/",
+        "rating": "14+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Titanic",
+        "url": "https://www.adorocinema.com/filmes/filme-5818/",
+        "rating": "14+",
+        "genre": "Romance/Drama"
+      },
+      {
+        "title": "Star Wars: O Despertar da Força",
+        "url": "https://www.adorocinema.com/filmes/filme-215097/",
+        "rating": "12+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Vingadores: Guerra Infinita",
+        "url": "https://www.adorocinema.com/filmes/filme-218265/",
+        "rating": "12+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "Homem-Aranha: Sem Volta para Casa",
+        "url": "https://www.adorocinema.com/filmes/filme-256880/",
+        "rating": "12+",
+        "genre": "Ação/Aventura"
+      },
+      {
+        "title": "O Rei Leão (Live-Action)",
+        "url": "https://www.adorocinema.com/filmes/filme-250594/",
+        "rating": "10+",
+        "genre": "Aventura/Família"
+      },
+      {
+        "title": "Divertida Mente 2",
+        "url": "https://www.adorocinema.com/filmes/filme-290433/",
+        "rating": "Livre",
+        "genre": "Animação/Família"
+      },
+      {
+        "title": "Os Vingadores",
+        "url": "https://www.adorocinema.com/filmes/filme-130440/",
+        "rating": "12+",
+        "genre": "Ação/Ficção"
+      }
+    ],
+    "series": [
+      {
+        "title": "The Mandalorian",
+        "url": "https://www.adorocinema.com/series/serie-22963/",
+        "rating": "14+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Loki",
+        "url": "https://www.adorocinema.com/series/serie-24172/",
+        "rating": "14+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "Grey's Anatomy",
+        "url": "https://www.adorocinema.com/series/serie-274/",
+        "rating": "14+",
+        "genre": "Drama/Romance"
+      },
+      {
+        "title": "Os Simpsons",
+        "url": "https://www.adorocinema.com/series/serie-290/",
+        "rating": "12+",
+        "genre": "Animação/Comédia"
+      },
+      {
+        "title": "WandaVision",
+        "url": "https://www.adorocinema.com/series/serie-24173/",
+        "rating": "12+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "O Urso (The Bear)",
+        "url": "https://www.adorocinema.com/series/serie-28815/",
+        "rating": "16+",
+        "genre": "Comédia/Drama"
+      },
+      {
+        "title": "Bluey",
+        "url": "https://www.adorocinema.com/series/serie-28035/",
+        "rating": "Livre",
+        "genre": "Animação/Família"
+      },
+      {
+        "title": "Shōgun: A Gloriosa Saga do Japão",
+        "url": "https://www.adorocinema.com/series/serie-23957/",
+        "rating": "16+",
+        "genre": "Aventura/Drama"
+      },
+      {
+        "title": "Modern Family",
+        "url": "https://www.adorocinema.com/series/serie-6085/",
+        "rating": "12+",
+        "genre": "Comédia"
+      },
+      {
+        "title": "Hawkeye (Gavião Arqueiro)",
+        "url": "https://www.adorocinema.com/series/serie-24391/",
+        "rating": "12+",
+        "genre": "Ação/Aventura"
+      }
+    ]
+  },
+  "max": {
+    "movies": [
+      {
+        "title": "Barbie",
+        "url": "https://www.adorocinema.com/filmes/filme-173087/",
+        "rating": "12+",
+        "genre": "Comédia/Fantasia"
+      },
+      {
+        "title": "Duna: Parte Dois",
+        "url": "https://www.adorocinema.com/filmes/filme-278742/",
+        "rating": "14+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "A Trilogia O Senhor dos Anéis",
+        "url": "https://www.adorocinema.com/filmes/filme-27070/",
+        "rating": "12+",
+        "genre": "Fantasia/Aventura"
+      },
+      {
+        "title": "Batman: O Cavaleiro das Trevas",
+        "url": "https://www.adorocinema.com/filmes/filme-115362/",
+        "rating": "12+",
+        "genre": "Ação/Suspense"
+      },
+      {
+        "title": "O Exorcista",
+        "url": "https://www.adorocinema.com/filmes/filme-27765/",
+        "rating": "16+",
+        "genre": "Terror"
+      },
+      {
+        "title": "Interestelar",
+        "url": "https://www.adorocinema.com/filmes/filme-114782/",
+        "rating": "10+",
+        "genre": "Ficção/Drama"
+      },
+      {
+        "title": "Um Sonho de Liberdade",
+        "url": "https://www.adorocinema.com/filmes/filme-11736/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Aquaman 2: O Reino Perdido",
+        "url": "https://www.adorocinema.com/filmes/filme-270235/",
+        "rating": "12+",
+        "genre": "Ação/Fantasia"
+      },
+      {
+        "title": "Parasita",
+        "url": "https://www.adorocinema.com/filmes/filme-255238/",
+        "rating": "16+",
+        "genre": "Suspense/Drama"
+      },
+      {
+        "title": "A Coleção Harry Potter",
+        "url": "https://www.adorocinema.com/filmes/filme-29276/",
+        "rating": "12+",
+        "genre": "Fantasia/Aventura"
+      }
+    ],
+    "series": [
+      {
+        "title": "A Casa do Dragão",
+        "url": "https://www.adorocinema.com/series/serie-25633/",
+        "rating": "16+",
+        "genre": "Fantasia/Drama"
+      },
+      {
+        "title": "The Last of Us",
+        "url": "https://www.adorocinema.com/series/serie-26316/",
+        "rating": "16+",
+        "genre": "Drama/Ficção"
+      },
+      {
+        "title": "Friends",
+        "url": "https://www.adorocinema.com/series/serie-49/",
+        "rating": "12+",
+        "genre": "Comédia"
+      },
+      {
+        "title": "Game of Thrones",
+        "url": "https://www.adorocinema.com/series/serie-7157/",
+        "rating": "18+",
+        "genre": "Fantasia/Drama"
+      },
+      {
+        "title": "Succession",
+        "url": "https://www.adorocinema.com/series/serie-20697/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Euphoria",
+        "url": "https://www.adorocinema.com/series/serie-22215/",
+        "rating": "18+",
+        "genre": "Drama"
+      },
+      {
+        "title": "The White Lotus",
+        "url": "https://www.adorocinema.com/series/serie-27480/",
+        "rating": "16+",
+        "genre": "Comédia/Drama"
+      },
+      {
+        "title": "True Detective",
+        "url": "https://www.adorocinema.com/series/serie-11058/",
+        "rating": "16+",
+        "genre": "Policial/Drama"
+      },
+      {
+        "title": "Rick and Morty",
+        "url": "https://www.adorocinema.com/series/serie-11561/",
+        "rating": "16+",
+        "genre": "Animação/Comédia"
+      },
+      {
+        "title": "Quilos Mortais (My 600-lb Life)",
+        "url": "https://www.adorocinema.com/series/serie-1000001761/",
+        "rating": "14+",
+        "genre": "Reality"
+      }
+    ]
+  },
+  "globoplay": {
+    "movies": [
+      {
+        "title": "O Auto da Compadecida",
+        "url": "https://www.adorocinema.com/filmes/filme-120824/",
+        "rating": "Livre",
+        "genre": "Comédia/Aventura"
+      },
+      {
+        "title": "Cidade de Deus",
+        "url": "https://www.adorocinema.com/filmes/filme-45264/",
+        "rating": "18+",
+        "genre": "Drama/Crime"
+      },
+      {
+        "title": "Parasita",
+        "url": "https://www.adorocinema.com/filmes/filme-255238/",
+        "rating": "16+",
+        "genre": "Suspense/Drama"
+      },
+      {
+        "title": "Tropa de Elite",
+        "url": "https://www.adorocinema.com/filmes/filme-133548/",
+        "rating": "18+",
+        "genre": "Ação/Policial"
+      },
+      {
+        "title": "Meu Nome é Gal",
+        "url": "https://www.adorocinema.com/filmes/filme-263291/",
+        "rating": "16+",
+        "genre": "Biografia/Drama"
+      },
+      {
+        "title": "Corra! (Get Out)",
+        "url": "https://www.adorocinema.com/filmes/filme-241160/",
+        "rating": "14+",
+        "genre": "Terror/Suspense"
+      },
+      {
+        "title": "Ainda Estou Aqui",
+        "url": "https://www.adorocinema.com/filmes/filme-265940/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Mussum, o Filmis",
+        "url": "https://www.adorocinema.com/filmes/filme-236033/",
+        "rating": "12+",
+        "genre": "Biografia/Comédia"
+      },
+      {
+        "title": "A Garota no Trem",
+        "url": "https://www.adorocinema.com/filmes/filme-234725/",
+        "rating": "16+",
+        "genre": "Suspense/Drama"
+      },
+      {
+        "title": "Retrato de uma Jovem em Chamas",
+        "url": "https://www.adorocinema.com/filmes/filme-265621/",
+        "rating": "14+",
+        "genre": "Romance/Drama"
+      }
+    ],
+    "series": [
+      {
+        "title": "The Good Doctor: O Bom Doutor",
+        "url": "https://www.adorocinema.com/series/serie-18045/",
+        "rating": "12+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Avenida Brasil",
+        "url": "https://www.adorocinema.com/series/serie-17113/",
+        "rating": "12+",
+        "genre": "Novela/Drama"
+      },
+      {
+        "title": "Os Outros",
+        "url": "https://www.adorocinema.com/filmes/filme-26832/",
+        "rating": "16+",
+        "genre": "Drama/Suspense"
+      },
+      {
+        "title": "Arcanjo Renegado",
+        "url": "https://www.adorocinema.com/series/serie-25974/",
+        "rating": "16+",
+        "genre": "Ação/Policial"
+      },
+      {
+        "title": "Todas as Flores",
+        "url": "https://www.adorocinema.com/series/serie-32159/",
+        "rating": "16+",
+        "genre": "Novela/Drama"
+      },
+      {
+        "title": "The Handmaid's Tale: O Conto da Aia",
+        "url": "https://www.adorocinema.com/series/serie-20677/",
+        "rating": "18+",
+        "genre": "Drama/Ficção"
+      },
+      {
+        "title": "Todo Mundo Odeia o Chris",
+        "url": "https://www.adorocinema.com/series/serie-458/",
+        "rating": "10+",
+        "genre": "Comédia"
+      },
+      {
+        "title": "Sob Pressão",
+        "url": "https://www.adorocinema.com/series/serie-22461/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "O Caso Evandro",
+        "url": "https://www.adorocinema.com/series/serie-25975/",
+        "rating": "16+",
+        "genre": "Documentário/Crime"
+      },
+      {
+        "title": "Justiça 2",
+        "url": "https://www.adorocinema.com/series/serie-36459/",
+        "rating": "16+",
+        "genre": "Drama"
+      }
+    ]
+  },
+  "paramount": {
+    "movies": [
+      {
+        "title": "Top Gun",
+        "url": "https://www.adorocinema.com/filmes/filme-186636/",
+        "rating": "Livre",
+        "genre": "Ação/Aventura"
+      },
+      {
+        "title": "O Poderoso Chefão",
+        "url": "https://www.adorocinema.com/filmes/filme-1628/",
+        "rating": "14+",
+        "genre": "Crime/Drama"
+      },
+      {
+        "title": "Missão: Impossível - O Acerto Final",
+        "url": "https://www.adorocinema.com/filmes/filme-270936/",
+        "rating": "14+",
+        "genre": "Ação/Espionagem"
+      },
+      {
+        "title": "O Resgate do Soldado Ryan",
+        "url": "https://www.adorocinema.com/filmes/filme-18598/",
+        "rating": "16+",
+        "genre": "Guerra/Drama"
+      },
+      {
+        "title": "Um Lugar Silencioso",
+        "url": "https://www.adorocinema.com/filmes/filme-254612/",
+        "rating": "14+",
+        "genre": "Terror/Suspense"
+      },
+      {
+        "title": "Transformers: O Despertar das Feras",
+        "url": "https://www.adorocinema.com/filmes/filme-241065/",
+        "rating": "12+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "Sorria (Smile)",
+        "url": "https://www.adorocinema.com/filmes/filme-304967/",
+        "rating": "16+",
+        "genre": "Terror/Suspense"
+      },
+      {
+        "title": "Forrest Gump: O Contador de Histórias",
+        "url": "https://www.adorocinema.com/filmes/filme-10568/",
+        "rating": "14+",
+        "genre": "Drama/Comédia"
+      },
+      {
+        "title": "Guerra Mundial Z",
+        "url": "https://www.adorocinema.com/filmes/filme-140631/",
+        "rating": "14+",
+        "genre": "Ação/Terror"
+      },
+      {
+        "title": "Clube da Luta (Fight Club)",
+        "url": "https://www.adorocinema.com/filmes/filme-21189/",
+        "rating": "18+",
+        "genre": "Suspense/Drama"
+      }
+    ],
+    "series": [
+      {
+        "title": "Yellowstone",
+        "url": "https://www.adorocinema.com/series/serie-17457/",
+        "rating": "16+",
+        "genre": "Drama/Faroeste"
+      },
+      {
+        "title": "1923",
+        "url": "https://www.adorocinema.com/series/serie-31316/",
+        "rating": "16+",
+        "genre": "Drama/Faroeste"
+      },
+      {
+        "title": "Tulsa King",
+        "url": "https://www.adorocinema.com/series/serie-30890/",
+        "rating": "16+",
+        "genre": "Crime/Drama"
+      },
+      {
+        "title": "Mayor of Kingstown",
+        "url": "https://www.adorocinema.com/series/serie-26092/",
+        "rating": "16+",
+        "genre": "Crime/Drama"
+      },
+      {
+        "title": "Operação Lioness (Special Ops: Lioness)",
+        "url": "https://www.adorocinema.com/series/serie-27407/",
+        "rating": "16+",
+        "genre": "Ação/Drama"
+      },
+      {
+        "title": "Star Trek: Strange New Worlds",
+        "url": "https://www.adorocinema.com/series/serie-26188/",
+        "rating": "14+",
+        "genre": "Ficção/Aventura"
+      },
+      {
+        "title": "Todo Mundo Odeia o Chris",
+        "url": "https://www.adorocinema.com/series/serie-458/",
+        "rating": "10+",
+        "genre": "Comédia"
+      },
+      {
+        "title": "Halo",
+        "url": "https://www.adorocinema.com/series/serie-12209/",
+        "rating": "16+",
+        "genre": "Ação/Ficção"
+      },
+      {
+        "title": "Dexter",
+        "url": "https://www.adorocinema.com/series/serie-3004/",
+        "rating": "18+",
+        "genre": "Crime/Drama"
+      },
+      {
+        "title": "South Park",
+        "url": "https://www.adorocinema.com/series/serie-546/",
+        "rating": "18+",
+        "genre": "Animação/Comédia"
+      }
+    ]
+  },
+  "appletv": {
+    "movies": [
+      {
+        "title": "Assassinos da Lua das Flores",
+        "url": "https://www.adorocinema.com/filmes/filme-245813/",
+        "rating": "16+",
+        "genre": "Drama/Suspense"
+      },
+      {
+        "title": "CODA: No Ritmo do Coração",
+        "url": "https://www.adorocinema.com/filmes/filme-276170/",
+        "rating": "12+",
+        "genre": "Drama/Música"
+      },
+      {
+        "title": "Greyhound - Na Mira do Inimigo",
+        "url": "https://www.adorocinema.com/filmes/filme-250108/",
+        "rating": "14+",
+        "genre": "Guerra/Ação"
+      },
+      {
+        "title": "Tetris",
+        "url": "https://www.adorocinema.com/filmes/filme-285354/",
+        "rating": "14+",
+        "genre": "Biografia/Suspense"
+      },
+      {
+        "title": "Plano em Família (The Family Plan)",
+        "url": "https://www.adorocinema.com/filmes/filme-307227/",
+        "rating": "14+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "A Tragédia de Macbeth",
+        "url": "https://www.adorocinema.com/filmes/filme-273063/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Finch",
+        "url": "https://www.adorocinema.com/filmes/filme-260221/",
+        "rating": "12+",
+        "genre": "Ficção/Drama"
+      },
+      {
+        "title": "Emancipation",
+        "url": "https://www.adorocinema.com/filmes/filme-284509/",
+        "rating": "16+",
+        "genre": "Ação/Drama"
+      },
+      {
+        "title": "Ghosted: Sem Resposta",
+        "url": "https://www.adorocinema.com/filmes/filme-295817/",
+        "rating": "14+",
+        "genre": "Ação/Comédia"
+      },
+      {
+        "title": "Still: Ainda Sou Michael J. Fox",
+        "url": "https://www.adorocinema.com/filmes/filme-303970/",
+        "rating": "16+",
+        "genre": "Documentário/Biografia"
+      }
+    ],
+    "series": [
+      {
+        "title": "Ruptura (Severance)",
+        "url": "https://www.adorocinema.com/series/serie-26062/",
+        "rating": "16+",
+        "genre": "Ficção/Suspense"
+      },
+      {
+        "title": "Ted Lasso",
+        "url": "https://www.adorocinema.com/series/serie-25762/",
+        "rating": "14+",
+        "genre": "Comédia/Drama"
+      },
+      {
+        "title": "Silo",
+        "url": "https://www.adorocinema.com/series/serie-29245/",
+        "rating": "16+",
+        "genre": "Ficção/Drama"
+      },
+      {
+        "title": "The Morning Show",
+        "url": "https://www.adorocinema.com/series/serie-22438/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Slow Horses",
+        "url": "https://www.adorocinema.com/series/serie-25905/",
+        "rating": "16+",
+        "genre": "Drama/Suspense"
+      },
+      {
+        "title": "Para Toda a Humanidade (For All Mankind)",
+        "url": "https://www.adorocinema.com/series/serie-23080/",
+        "rating": "14+",
+        "genre": "Ficção/Drama"
+      },
+      {
+        "title": "Matéria Escura (Dark Matter)",
+        "url": "https://www.adorocinema.com/series/serie-31594/",
+        "rating": "16+",
+        "genre": "Ficção/Suspense"
+      },
+      {
+        "title": "Mestres do Ar (Masters of the Air)",
+        "url": "https://www.adorocinema.com/series/serie-11807/",
+        "rating": "16+",
+        "genre": "Guerra/Drama"
+      },
+      {
+        "title": "Pachinko",
+        "url": "https://www.adorocinema.com/series/serie-24946/",
+        "rating": "16+",
+        "genre": "Drama"
+      },
+      {
+        "title": "Shrinking: Terapia Sem Filtros",
+        "url": "https://www.adorocinema.com/series/serie-30362/",
+        "rating": "16+",
+        "genre": "Comédia/Drama"
+      }
+    ]
+  }
+}

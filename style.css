@@ -1,0 +1,541 @@
+/* Importa a fonte 'Quicksand' do Google Fonts para ser usada em toda a página. */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Seletor universal (*) que aplica a regra a todos os elementos. */
+* {
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura/altura final do elemento. */
+}
+
+/* Define variáveis de cores globais para serem reutilizadas no CSS, facilitando a manutenção do tema. */
+:root {
+    --primary-color: #8ab4f8;
+    --secondary-color: #ffffff;
+    --tertiary-color: #5aacfd;
+    --bg-color: #18191b;
+
+    /* Cores das marcas de streaming */
+    --netflix-red: #E50914;
+    --prime-video-blue: #00A8E1;
+    --disney-plus-blue: #01147C;
+    --max-purple: #5808F3;
+    --text-light: #FFFFFF;
+    --text-dark: #000000;
+
+    /* cores adicionais solicitadas */
+    --globoplay-green: #FB7416;
+    --paramount-blue: #003B6F;
+    --appletv-black: #0B0B0B;
+}
+
+/* Estilos aplicados ao corpo (body) da página. */
+body {
+    margin: 0; /* Remove a margem padrão do navegador. */
+    background: var(--bg-color); /* Define a cor de fundo usando uma variável. */
+    color: var(--secondary-color); /* Define a cor do texto padrão. */
+    font-family: "Quicksand", sans-serif; /* Define a família da fonte. */
+}
+
+/* remove barra de rolagem global e força rolagem interna no main */
+html, body {
+    height: 100%;
+    overflow: auto; /* scrollbar do documento (no canto direito) */
+    scrollbar-gutter: stable; /* evita "pulo" no layout quando a barra aparece (suporte moderno) */
+}
+
+/* main não deve ter scroll próprio vertical - permite que o scroll fique na borda direita da janela */
+main {
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-right: 0; /* remove espaço que desloca a barra para dentro */
+    padding-bottom: 4rem;
+}
+
+/* Estilização do cabeçalho (header). */
+header {
+    padding: 2rem 1rem 4.5rem; /* aumenta padding-bottom para espaço da barra de botões */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky; /* Faz o cabeçalho ficar fixo no topo ao rolar a página. */
+    top: 0; /* Posição inicial no topo. */
+    background: var(--bg-color); /* Cor de fundo. */
+    z-index: 10; /* Garante que o cabeçalho fique sobre outros elementos. */
+    box-shadow: 0 4px 8px rgba(109, 105, 105, 0.137); /* Sombra para destaque */
+    border-bottom: 1px solid var(--bg-color); /* Borda inferior sutil. */
+    gap: 1rem; /* Espaçamento entre os itens do flex container. */
+}
+
+/* Estilização do título principal (h1) dentro do cabeçalho. */
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 500;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas. */
+}
+
+/* torna a logo clicável sem aparência de link padrão */
+.logo-button {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+.logo-button img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilização do campo de busca (input). */
+div input {
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    font-family: inherit;
+    font-size: 1.5rem;
+    transition: all 0.2s ease;
+    width: 30rem;
+    color: var(--secondary-color);
+    margin-right: .5rem;
+}
+
+/* Estilização do texto de placeholder dentro do input. */
+div input::placeholder {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--tertiary-color);
+}
+
+/* Estilização do input quando está em foco (selecionado). */
+div input:focus {
+    outline: none; /* Remove a borda de foco padrão. */
+    border-color: var(--bg-color); /* Muda a cor da borda. */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra para indicar o foco. */
+}
+
+/* Estilização do botão de busca. */
+#botao-busca {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none; /* Remove a borda padrão. */
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--bg-color);
+}
+
+/* Efeito visual quando o mouse passa por cima do botão. */
+#botao-busca:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    box-shadow: 0 0 0 0.1rem var(--primary-color);
+}
+
+/* Efeito visual quando o botão é clicado. */
+#botao-busca:active {
+    transform: scale(0.98); /* Reduz ligeiramente o tamanho do botão para dar feedback de clique. */
+}
+
+/* barra fixa de botões na base do header, vai de esquerda a direita */
+.stream-buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* grupo de botões à esquerda, busca à direita */
+    padding: 0.5rem 1rem;
+    background: linear-gradient(0deg, rgba(0,0,0,0.04), transparent); /* sutileza visual */
+    gap: 1rem;
+}
+
+/* grupo de botões com overflow-x para scroll horizontal quando necessário */
+.buttons-group {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    flex: 1 1 auto; /* ocupa espaço disponível */
+}
+
+/* container da busca (fixo à direita da barra) */
+.search-container {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+/* estiliza o input de busca específico do cabeçalho (substitui regras genéricas se houver conflito) */
+.search-container input {
+    padding: 0.4rem 0.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+    width: 18rem;
+}
+
+/* adaptações para telas pequenas */
+@media (max-width: 768px) {
+    .search-container input {
+        width: 14rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* quando a barra fica estática, os itens empilham e a busca ocupa largura completa */
+    .stream-buttons {
+        position: static;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.5rem 0;
+        background: transparent;
+    }
+
+    .buttons-group {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-container {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .search-container input {
+        width: 90%;
+        max-width: 24rem;
+    }
+}
+
+/* foco acessível no botão da logo */
+.logo-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.12rem rgba(138,180,248,0.14);
+    border-radius: 0.25rem;
+}
+
+/* Estilização da área de conteúdo principal (main). */
+main {
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-top: 3rem; /* Espaço para separar do header */
+    margin-bottom: 3rem; /* Espaço para separar do footer */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(83, 82, 82, 0.096); /* Sombra para destaque */
+}
+
+footer {
+   padding: 10px 20px;
+}
+/* --- Seção de Notícias --- */
+.news-container {
+    margin-bottom: 3rem;
+}
+
+.news-container h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--tertiary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.news-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.news-item {
+    background-color: #242526;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.news-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.news-item-content {
+    padding: 1rem;
+}
+
+.news-item h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+article {
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    padding: 0 1rem;
+    margin-bottom: 1.25rem;
+    box-shadow: none;
+    transition: background-color 0.3s ease, border-bottom-color 0.3s ease;
+    border-bottom: 1px solid var(--bg-color);
+    padding-bottom: 1.5rem;
+}
+
+/* Efeito de escala ao passar o mouse sobre um artigo. */
+article:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/* Estilização do título (h2) de cada artigo. */
+article h2 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0.25rem;
+    color: var(--primary-color);
+}
+
+/* Estilização dos parágrafos (p) dentro dos artigos. */
+article p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+/* Estilização do texto em negrito (strong) dentro dos parágrafos. */
+article p strong {
+    color: var(--tertiary-color);
+    font-weight: 400;
+}
+
+/* Estilização dos links (a) dentro dos artigos. */
+article a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+/* Adiciona sublinhado ao passar o mouse sobre o link. */
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Estilização do rodapé (footer). */
+.footer {
+    max-width: 80rem;
+    margin: 0 auto 2rem auto; /* Centraliza e adiciona margem inferior */
+    color: var(--tertiary-color); 
+    padding: 2rem 1rem; /* Aumenta o padding vertical para "esticar" o rodapé */
+    border-radius: 8px;
+    border-top: 1px solid #5d5f61;
+    font-size: 0.8rem;
+}
+
+/* Estilização da seção de localização no rodapé. */
+.footer-location {
+    color: #007cf8;
+    margin-bottom: 10px;
+}
+
+/* Estilização da lista de links no rodapé. */
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Estilização dos links individuais no rodapé. */
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Estilo base para os botões de streaming */
+.btn-stream {
+    flex: 0 0 auto;
+    padding: 0.45rem 0.9rem;
+    border-radius: 0.75rem;
+    font-size: 0.95rem;
+    background-color: var(--bg-color);
+    color: var(--secondary-color);
+    border: 1px solid rgba(20, 20, 20, 0.06);
+    transition: background-color 0.20s ease, color 0.20s ease, box-shadow 0.20s ease, transform 0.08s ease;
+    cursor: pointer;
+}
+
+/* foco acessível */
+.btn-stream:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.12rem rgba(0, 0, 0, 0.14);
+    transform: translateY(-1px);
+}
+
+/* Hover por marca (cores aparecem ao passar o mouse) */
+.btn-stream.btn-netflix:hover {
+    background-color: var(--netflix-red);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-prime-video:hover {
+    background-color: var(--prime-video-blue);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-disney-plus:hover {
+    background-color: var(--disney-plus-blue);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-max:hover {
+    background-color: var(--max-purple);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-globoplay:hover {
+    background-color: var(--globoplay-green);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-paramount:hover {
+    background-color: var(--paramount-blue);
+    color: var(--text-light);
+}
+
+.btn-stream.btn-apple-tv:hover {
+    background-color: var(--appletv-black);
+    color: var(--text-light);
+}
+
+/* Media Query para telas com largura máxima de 768px (tablets). */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    header h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    div input {
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+
+    article:hover {
+        transform: none;
+    }
+}
+
+/* Media Query para telas com largura máxima de 480px (celulares). */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1rem;
+        max-width: 70%;
+        word-wrap: break-word;
+    }
+
+    div input,
+    div input::placeholder {
+        font-size: 1rem;
+    }
+
+    article h2 {
+        font-size: 1.3rem;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .footer {
+        display: none; /* Oculta o rodapé em telas muito pequenas. */
+    }
+
+    button {
+        margin-top: 1rem;
+    }
+
+    header {
+        padding: 1rem; /* remove espaço extra quando a barra ficar estática */
+    }
+
+    .stream-buttons {
+        position: static;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.5rem 0;
+        background: transparent;
+    }
+
+    .buttons-group {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-container {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .search-container input {
+        width: 90%;
+        max-width: 24rem;
+    }
+}

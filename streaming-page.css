@@ -1,0 +1,171 @@
+/* Estilos para as páginas dedicadas de cada streaming */
+
+.streaming-page-main {
+    padding: 0 2rem;
+}
+
+.streaming-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+/* estilo compartilhado para todas as logos das páginas de streaming */
+.streaming-logo {
+    display: block;
+    width: 140px;
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
+
+    /* remove o fundo e a borda de debug */
+    background: transparent;
+    border: none;
+    min-height: 48px;
+
+    /* Estilos para a imagem de fundo (logo) */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Define a imagem de cada logo */
+.netflix-header .streaming-logo {
+    background-image: url('https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png');
+}
+.prime-video-header .streaming-logo {
+    background-image: url('https://logodownload.org/wp-content/uploads/2018/07/prime-video-logo-0.png');
+}
+.disney-plus-header .streaming-logo {
+    background-image: url('https://logodownload.org/wp-content/uploads/2020/11/disney-plus-logo-1.png');
+}
+.max-header .streaming-logo {
+    background-image: url('midia/max-logo.svg');
+}
+
+.streaming-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Cores específicas para cada serviço */
+.netflix-header {
+    border-color: var(--netflix-red);
+    box-shadow: 0 0 10px -2px var(--netflix-red);
+}
+.prime-video-header {
+    border-color: var(--prime-video-blue);
+    box-shadow: 0 0 10px -2px var(--prime-video-blue);
+}
+.disney-plus-header {
+    border-color: var(--disney-plus-blue);
+    box-shadow: 0 0 10px -2px var(--disney-plus-blue);
+}
+.max-header {
+    border-color: var(--max-purple);
+    box-shadow: 0 0 10px -2px var(--max-purple);
+}
+.globoplay-header { border-color: var(--globoplay-green); box-shadow: 0 0 10px -2px var(--globoplay-green); }
+.paramount-header { border-color: var(--paramount-blue); box-shadow: 0 0 10px -2px var(--paramount-blue); }
+.appletv-header { border-color: var(--appletv-black); box-shadow: 0 0 10px -2px var(--appletv-black); }
+
+/* exemplo de aparência de fundo por serviço (personalize cores se quiser) */
+.disney-header  { background: linear-gradient(90deg, rgba(1,20,124,0.06), transparent); }
+.max-header     { background: linear-gradient(90deg, rgba(88,8,243,0.06), transparent); }
+
+.top-lists-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.top-list {
+    background-color: #2d2e30;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.top-list h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--tertiary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.top-list ol {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    counter-reset: top-list-counter;
+}
+
+.top-list li {
+    font-size: 1.05rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid #444;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.top-list li:last-child {
+    border-bottom: none;
+}
+
+.top-list li a {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 0.5rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    width: 100%; /* Garante que o link ocupe todo o espaço */
+    justify-content: space-between; /* Alinha o título à esquerda e os detalhes à direita */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha em telas pequenas */
+}
+
+.top-list li a .title {
+    flex-grow: 1; /* Faz o título ocupar o espaço disponível */
+    padding-right: 1rem; /* Espaço entre o título e os detalhes */
+}
+
+.top-list li a .details {
+    font-size: 0.85rem;
+    color: var(--tertiary-color);
+    text-align: right;
+    white-space: nowrap; /* Impede que os detalhes quebrem linha */
+}
+
+.top-list li a::before {
+    counter-increment: top-list-counter;
+    content: counter(top-list-counter);
+    font-weight: 600;
+    font-size: 1.2rem;
+    min-width: 2.5rem;
+    text-align: center;
+    color: var(--tertiary-color);
+}
+
+/* Força centralização do bloco de header no main se necessário */
+.streaming-page-main .streaming-header {
+    margin: 1rem 0;
+    align-items: center;
+}
+.top-list li:hover {
+    background-color: #3a3b3d;
+}
+
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .top-lists-container {
+        grid-template-columns: 1fr;
+    }
+
+    .streaming-header h2 {
+        font-size: 1.5rem;
+    }
+}
